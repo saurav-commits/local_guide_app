@@ -27,6 +27,7 @@ class _HomePageState extends State<HomeScreen> {
   // Page Controller
   final _pageController = PageController(viewportFraction: 0.877);
   TextEditingController textController = TextEditingController();
+  final name = "das";
 
   String location = 'Null, Press Button';
   String address = 'search';
